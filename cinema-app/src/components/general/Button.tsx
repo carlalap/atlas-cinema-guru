@@ -1,0 +1,34 @@
+import { IconProp } from "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import styles from './Button.module.css'
+import '../../../general.css';
+
+interface ButtonProps {
+  text: string
+  onClick?: () => void
+  className?: string
+  icon?: IconProp
+}
+
+export default function Button({
+  text,
+  onClick,
+  className,
+  icon
+}: ButtonProps) {
+  return (
+    <button
+      className={`${styles.button} ${className} `}
+      onClick={onClick}
+    >
+      {
+        icon &&
+        <FontAwesomeIcon
+          className={styles.icon}
+          icon={icon}
+        />
+      }
+      {text}
+    </button>
+  )
+}

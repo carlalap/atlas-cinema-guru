@@ -1,0 +1,45 @@
+.container_dark {
+    color: #FFFFFF;
+}
+  
+.container {
+  display: inline-block;
+}
+  
+.description_container {
+  display: flex;
+  gap: 10px;
+}
+  
+.icon {
+  color: #2C2C2C;
+}
+  
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #BB000E;
+}
+  
+.input_dark {
+  color: #FFFFFF;
+  background: #2C2C2C;
+}
+  
+.label_error {
+  color: #BB000E;
+}
+  
+.icon_error {
+  color: #BB000E;
+}
+  
+.input_error {
+  border: 1px solid #BB000E;
+}
+  
+.error_message {
+  display: block;
+  color: #BB000E;
+}

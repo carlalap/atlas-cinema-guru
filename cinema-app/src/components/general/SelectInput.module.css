@@ -1,0 +1,45 @@
+.container {
+    display: inline-block;
+    color: #FFFFFF;
+}
+  
+.select_container {
+    position: relative;
+    display: flex;
+    background: #5c6664;
+    overflow: hidden;
+    width: 12.5rem;
+    height: 1.375rem;
+}
+  
+.select_input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #BB000E;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    appearance: none;
+    flex: 1;
+    text-transform: capitalize;
+}
+  
+.select_input::-ms-expand {
+    display: none;
+}
+  
+.select_input option {
+    text-transform: capitalize;
+}
+  
+.select_input option:hover {
+    color: #BB000E;
+}
+  
+.select_icon {
+    position: absolute;
+    top: 3.8px;
+    right: 0;
+    margin: auto 0;
+    padding-right: 10px;
+    pointer-events: none;
+}

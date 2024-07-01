@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    padding: .5rem 1rem;
+    color: #FFFFFF;
+    background-color: #BB000E;
+    cursor: pointer;
+    border: none;
+    width: fit-content;
+    transition: all .2s ease;
+}
+
+.icon {
+    margin-right: .5rem;
+}
