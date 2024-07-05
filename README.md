@@ -22,7 +22,7 @@ This is a pocket movie app in which we will keep track our favorite movies and s
 
 ## Getting Started:
 
-1. The <a href="https://www.figma.com/design/x0aU9AfF2yxGqLeUG2RTqE/Holbertonschool---Cinema-Guru-(Copy)?node-id=0-1&t=4eSrMpAHNtHs8jLc-1" title="Figma Design" target="_blank">Figma</a> link contains the main components of the design information details about the project.</li>
+1. The <a href="https://www.figma.com/design/x0aU9AfF2yxGqLeUG2RTqE/Holbertonschool---Cinema-Guru-(Copy)?node-id=0-1&t=4eSrMpAHNtHs8jLc-1" title="Figma Design" target="_blank">Figma</a> link contains the main components of the design and detailed information about the project.</li>
 
 2. <p>Cloning and running the backend server</p>
 
