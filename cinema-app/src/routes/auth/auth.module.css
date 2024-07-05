@@ -1,4 +1,21 @@
-/* This file host all the css needed for the Login & Register components. */
+/* These lines host all the css needed for the Authentication components */
+.container2 {
+   width: 28rem;
+   margin: auto;
+   background-color: #ffffff;
+}
+
+.switch_button {
+    width: 14rem;
+    height: 3rem;
+}
+  
+.selected {
+   background: #E31C25;
+}
+/* End of the Authentication components */
+
+/* These lines host all the css needed for the Login & Register components. */
 .container {
     width: 100%;
     display: flex;
@@ -41,3 +58,5 @@
 .button {
     margin: 0 3rem 1.3rem auto;
 }
+
+/* End of the Login & Register components. */

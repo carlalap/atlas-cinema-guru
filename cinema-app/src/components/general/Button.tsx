@@ -10,7 +10,7 @@ interface ButtonProps {
   icon?: IconProp
 }
 
-export default function Button({
+function Button({
   text,
   onClick,
   className,
@@ -32,3 +32,5 @@ export default function Button({
     </button>
   )
 }
+
+export default Button;

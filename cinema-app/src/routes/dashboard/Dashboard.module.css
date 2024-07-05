@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+.main_section {
+    display: flex;
+    margin-top: 3.9rem;
+    flex-grow: 1;
+    height: 100%;
+}

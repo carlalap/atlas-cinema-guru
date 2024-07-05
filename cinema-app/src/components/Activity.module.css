@@ -1,0 +1,20 @@
+.container {
+   width: 100%;
+   background: #2C2C2C;
+   list-style: none;
+   font-size: .75rem;
+   padding: .7rem .8rem 0;
+}
+  
+.content {
+   margin: 0;
+   color: #FFF;
+   line-break: anywhere;
+   -webkit-line-break: after-white-space;
+}
+  
+.username,
+.movie_title {
+   color: #F31D27;
+   text-transform: capitalize;
+}

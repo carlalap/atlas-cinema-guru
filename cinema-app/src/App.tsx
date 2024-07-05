@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
+import "./App.module.css"
 import Authentication from "./routes/auth/Authentication";
 import Dashboard from "./routes/dashboard/Dashboard";
 import { authUser } from "./services/Auth.service";
 import { AuthRequestDataI } from './interfaces/Auth';
-
 
 
 function App() {

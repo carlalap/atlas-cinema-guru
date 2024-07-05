@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 import Button from '../../components/general/Button';
-import styles from './Authentication.module.css'
+import styles from './auth.module.css'
 import Login from './Login';
 import Register from "./Register";
 import { login, register } from "../../services/Auth.service";
@@ -10,7 +10,7 @@ interface AuthenticationProps {
   setUserUsername: (value: string) => void;
 }
 
-function Authentication({
+export default function Authentication({
   setIsLoggedIn,
   setUserUsername
 }: AuthenticationProps) {
@@ -45,7 +45,7 @@ function Authentication({
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container2}>
       <Button
         className={`${styles.switch_button} ${_switch ? styles.selected : ""}`}
         onClick={() => handleSwitch(true)}
@@ -76,5 +76,3 @@ function Authentication({
     </div>
   );
 }
-
-export default Authentication;

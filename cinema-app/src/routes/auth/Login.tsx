@@ -1,7 +1,7 @@
 import Input from '../../components/general/Input';
 import Button from '../../components/general/Button';
 import { faEye, faEyeSlash, faKey, faUser } from '@fortawesome/free-solid-svg-icons';
-import styles from './LoginRegister.module.css';
+import styles from './auth.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 
