@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Activity from "../Activity";
 import { faArrowRight, faClock, faFolder, faStar } from "@fortawesome/free-solid-svg-icons";
-import styles from './Sidebar.module.css'
+import styles from './navigation.module.css'
 import { ActivityI } from "../../interfaces/Api";
 import { getActivities } from "../../services/Api.service";
 
